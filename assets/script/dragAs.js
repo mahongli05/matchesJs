@@ -24,6 +24,17 @@ cc.Class({
         this.cellAngle = new Array();
         this.cellAngle.push(90);
         this.cellAngle.push(0);
-    }
+    },
+    
+    getChar: function () {
+        var flag = this.getFlag();
+        if (flag == 0x3) {
+            return '+';
+        } else if (flag == 0x2) {
+            return '-';
+        } else {
+            return '?';
+        }
+    },
     
 });

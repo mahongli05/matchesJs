@@ -130,6 +130,25 @@ cc.Class({
             this.node.addChild(this.dragNodes[i]);
             offset += halfW;
         }
+    },
+    
+    checkResult: function () {
+        var s = '';
+        for (var i = 0; i < this.dragNodes.length; i++) {
+            var dragScript = dragHelper.getDragTargetScript(this.dragNodes[i]);
+            if (dragScript !== null) {
+                s += dragScript.getChar();
+            }
+        }
+        
+        console.log("result: ", s);
+        if (s.indexOf('?') !== -1) {
+            return false;
+        }
+        
+        var r = eval(s);
+        console.log("result value: ", r);
+        return r;
     }
     
 });

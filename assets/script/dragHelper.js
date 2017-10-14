@@ -25,6 +25,11 @@ module.exports = {
         0x7b, 0xe, 0x7f,
         0x5f],
     
+    dragValueMap: { 0x3f: '0', 0xc: '1', 0x76: '2',
+        0x5e: '3', 0x4d: '4', 0x5b: '5',
+        0x7b: '6', 0xe: '7', 0x7f: '8',
+        0x5f: '9'},
+    
     distanceToLine: function (posA, posB, angle) {
         var v = new cc.Vec2();
         v.x = posA.x - posB.x;
@@ -56,5 +61,5 @@ module.exports = {
             return this.dragNum[num];
         }
         return 0;
-    }
+    },
 }

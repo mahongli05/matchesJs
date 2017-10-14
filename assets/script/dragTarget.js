@@ -97,6 +97,17 @@ cc.Class({
         }
     },
     
+    getFlag: function () {
+        var self = this;
+        var flag = 0;
+        for (var i = 0; i < self.cellCenter.length; i++) {
+            if (self.node.getChildByTag(i) !== null) {
+                flag |= (1<<i);
+            }
+        }
+        return flag;
+    },
+    
     findDragView: function (pos) {
         var self = this;
         var index = self.findNearestCellIndex(pos);

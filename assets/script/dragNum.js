@@ -1,4 +1,5 @@
 var dragTarget = require('dragTarget');
+var dragHelper = require('dragHelper');
 
 cc.Class({
     extends: dragTarget,
@@ -34,6 +35,12 @@ cc.Class({
         this.cellAngle.push(0);
         this.cellAngle.push(90);
         this.cellAngle.push(0);
-    }
-
+    },
+    
+    getChar: function () {
+        var flag = this.getFlag();
+        var s = dragHelper.dragValueMap[flag];
+        return s !== null ? s : '?';
+    },
+    
 });
