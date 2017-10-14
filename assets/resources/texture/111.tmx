@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="80" height="12" tilewidth="60" tileheight="60" nextobjectid="39">
+ <tileset firstgid="1" name="map" tilewidth="60" tileheight="60" tilecount="6" columns="3">
+  <image source="map.png" width="180" height="120"/>
+ </tileset>
+ <tileset firstgid="7" name="map60" tilewidth="60" tileheight="60" tilecount="2" columns="1">
+  <image source="map60.png" width="60" height="120"/>
+ </tileset>
+ <tileset firstgid="9" name="castle" tilewidth="60" tileheight="60" tilecount="8" columns="2">
+  <image source="castle.png" width="120" height="240"/>
+ </tileset>
+ <tileset firstgid="17" name="ic_sawtooth" tilewidth="60" tileheight="60" tilecount="12" columns="3">
+  <image source="ic_sawtooth.png" width="180" height="240"/>
+ </tileset>
+ <layer name="win" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BJwL9a/t0kPK2CJgAAAPfmOwBlAThAABE=
+  </data>
+ </layer>
+ <layer name="land" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzt0DEOACAIBDA2/f+LnVjcRGMY2uTGI0AEAADAH6NBKrvc3PDyD7NBUqVz2tu71RmZBSo/BBs=
+  </data>
+ </layer>
+ <layer name="trap" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztzKERAEAIA0GaoP9W34BBPejdmchLBAAAAPzJ2qXZdrO9frQHaeQA0w==
+  </data>
+ </layer>
+ <layer name="trap_sawtooth" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztk7ENwCAMBFkhhJCEZP85+dJCyBQukOFPugpLdnGEQMjeHDDCc/YhTknwgnn2IU654QPfzptsc9SptWOv/6DAD/6dN9nmqFNrxyv+A9mm1mk7a921CrJNrdN21rqLEEKITgWC8AVH
+  </data>
+ </layer>
+ <objectgroup name="objects" offsetx="0.666667" offsety="0.666667">
+  <object id="19" name="enemy" x="612" y="550"/>
+  <object id="22" name="floatingDrop" x="820" y="480">
+   <properties>
+    <property name="duration" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="24" name="floatingMove" x="80" y="480">
+   <properties>
+    <property name="direction" type="int" value="2"/>
+    <property name="distance" type="float" value="60"/>
+    <property name="group" type="int" value="1"/>
+    <property name="speed" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="25" name="floatingMove" x="330" y="480">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="distance" type="float" value="60"/>
+    <property name="group" type="int" value="1"/>
+    <property name="speed" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="26" name="floatingMove" x="580" y="480">
+   <properties>
+    <property name="direction" type="int" value="3"/>
+    <property name="distance" type="float" value="60"/>
+    <property name="group" type="int" value="1"/>
+    <property name="speed" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="27" name="enemy" x="1150" y="550"/>
+  <object id="28" name="enemy" x="3550" y="580"/>
+  <object id="29" name="enemy" x="4300" y="580"/>
+  <object id="30" name="born" x="30" y="300"/>
+  <object id="31" name="floatingDrop" x="980" y="480">
+   <properties>
+    <property name="duration" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="32" name="floatingDrop" x="900" y="480">
+   <properties>
+    <property name="duration" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="33" name="guide" x="239" y="299">
+   <properties>
+    <property name="end" type="float" value="600"/>
+    <property name="message" value="Keep moving with low voice."/>
+    <property name="start" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="37" name="guide" x="300" y="297">
+   <properties>
+    <property name="end" type="float" value="1200"/>
+    <property name="message" value="Jump ahead with loud voice."/>
+    <property name="start" type="float" value="650"/>
+   </properties>
+  </object>
+  <object id="38" name="guide" x="359" y="297">
+   <properties>
+    <property name="end" type="float" value="1500"/>
+    <property name="message" value="Ready? Scream!"/>
+    <property name="start" type="float" value="1250"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="castle" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztzrsNACAQw9Br+e+/LRmAPkTyk9y7CgAA4E9NdfdEsKGmeyLYUts9Eey4B4CHC4rfAFU=
+  </data>
+ </layer>
+</map>

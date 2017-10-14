@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="185" height="24" tilewidth="30" tileheight="30" nextobjectid="14">
+ <tileset firstgid="1" name="map1" tilewidth="30" tileheight="30" tilecount="117" columns="9">
+  <image source="map.png" width="270" height="390"/>
+  <tile id="0">
+   <properties>
+    <property name="top" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="top" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="land" width="185" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1TESwjAMRNFACSWUcP9rMnQppGQ3liCQ/2bUyY5sLDFNAAAAAAAAAAAAAAAAAAAAQI9TEMA/uQSB44lmnRrnndSauQWh7u2cbeQO+Y/pF806Na47qTXzCMLZe7QuN6p6Ze+zatpQY7ZWEc06Ne4N51m676wOJ1/JfffCc+VMSl1uVPVK5azq6h23xmytIpp1aqjvwP2t3Vqd/KUat5xtqS43qnqlclZ19c7Im1Deysi31PdYdR5lHyc/4/SDWpcb3e9+y6zq6h23/7O1itG50/ENdx8nvyJXretX5rjb+2pU9k62VtF1N3NVb/yIc/xT4dzLN/bN1iq6zjDXPVOc/IpctS43XoMGO/E=
+  </data>
+ </layer>
+ <layer name="castle" width="185" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzicOQgEURcG/IoqiKIqiKIqiKJCwf8ndxMsLyUxy/BkGAAAAAAAA/t0ojdMkTZtfoMIszdMiLZtfoMIqrdMmbXtXoMQu7dMhHZtfoMIpndMlXZtfoMIt3dMjPZtfoMIrvbsnoNAnfbsnAAAAAACg2Q/k2gg1
+  </data>
+ </layer>
+ <layer name="win" width="185" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzrENACAMBLFMCyXsX5Eloi+wpeuvCgAAAAAAAAAAAAD+trqdnoBBp7vpCQAAAAAACHlL3wGt
+  </data>
+ </layer>
+ <layer name="trap" width="185" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt0DEKADAIBDCh//9zJ0fBgkiHBNz04IwAAAAAAAAAAAAAAAAAAAAAgH2nmF9yq9sqf6PDVJ9Ozst+Z7fTafKH6QInswC+
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="3" name="born" x="60" y="350"/>
+  <object id="4" name="enemy" x="3000" y="393"/>
+  <object id="5" name="enemy" x="3630" y="393"/>
+  <object id="6" name="enemy" x="4385" y="0"/>
+  <object id="7" name="enemy" x="4600" y="273"/>
+  <object id="8" name="guide" x="467" y="337">
+   <properties>
+    <property name="end" type="float" value="1200"/>
+    <property name="message" value="Jump ahead with loud voice."/>
+    <property name="start" type="float" value="650"/>
+   </properties>
+  </object>
+  <object id="9" name="guide" x="406" y="339">
+   <properties>
+    <property name="end" type="float" value="600"/>
+    <property name="message" value="Keep moving with low voice."/>
+    <property name="start" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="10" name="guide" x="526" y="337">
+   <properties>
+    <property name="end" type="float" value="1500"/>
+    <property name="message" value="Ready? Scream!"/>
+    <property name="start" type="float" value="1250"/>
+   </properties>
+  </object>
+  <object id="12" name="born" x="1800" y="350"/>
+  <object id="13" name="born" x="3900" y="350"/>
+ </objectgroup>
+</map>

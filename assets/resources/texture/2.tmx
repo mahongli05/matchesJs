@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="24" tilewidth="30" tileheight="30" nextobjectid="27">
+ <tileset firstgid="1" name="map" tilewidth="30" tileheight="30" tilecount="117" columns="9">
+  <image source="map.png" width="270" height="390"/>
+  <tile id="0">
+   <properties>
+    <property name="top" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="top" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="118" name="transparent" tilewidth="30" tileheight="30" tilecount="0" columns="1">
+  <image source="transparent.png" width="30" height="30"/>
+ </tileset>
+ <layer name="land" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt00EOwyAMRNF0223vf9eKXYRSmDEmlPY/iZ2NTWIfBwAAAAAAAAAAAAAAAAAAAAAAyPaozuz7Z9YCFM4sPqvj3KnMeX1/r1arDnuFs+h8qLNYvKrj3Nm7++r+Xq1WHaWesl8rzr+481tF5qNQZ/Eq1rmzlxPJa8Ur9ZT9WnFaVu9u5m7P/lZnkfn4lKfGur18234o+StOy+rdzZrXI+E7KfPdqxXJU2PdXtiP3+3Zndest4zWiuSpsW4vI//ejd951nbs2Z3XrLeM1orkqbFuLyP/3o3fedZ27Nmd16y3jNaK5Kmxbi8j/96N33nWduzZndfiDVpINgk=
+  </data>
+ </layer>
+ <layer name="trap" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEKACAMA0DB//9ZHNzTLircQbaGdugYAAAAAAAAAAAAAAAAAAAAAADAi2aYbr/S6c6l91R7ie6+m368+Uj/dWcBqVsAyg==
+  </data>
+ </layer>
+ <layer name="castle" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzj0OAQEURtFZ0uiYDh0qQ+WnojT7L32bkPcS5yS3v8MAAAAAAAAAAMC/GNOqegIaWqdNmqpHoKFt2qV99Qg0dEjHdKoegWbOaU6XdC1+gW5u6Z4e6Vn8At280rt6Apr6pKV6AgAAAAB+4AtfUgcY
+  </data>
+ </layer>
+ <layer name="win" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzrENACAMBLFMCyXsX5EhIj2FLV1/VQAAAAAAAAAAAAAAAAB5q9vpCfjU6W56AgAAAAAGPXoyAa0=
+  </data>
+ </layer>
+ <layer name="trap_sawtooth" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEKgzAUBdC3dmvnDo3a///GVjBgQ3UpNk84By7GmEGCF8VHRJQl4zvDkrE5bs3V87KRW7JcT57e+3em/b9EfrU/WdL7+dYP/cjs6L7qh36w7ej3X+/nWz/IrNf3agn9gD3fulma+TqelvG0Wjc2a6dmbmiu/9qP+xGbAEnMXSnx2aES+/9X6/q5e88/3y8AAAAAAAAAAAAAAABAJi++ujm7
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="born" x="60" y="120" width="80" height="100"/>
+  <object id="3" name="enemy" x="880" y="0" width="48" height="86"/>
+  <object id="4" name="enemy" x="990" y="0" width="48" height="86"/>
+  <object id="5" name="enemy" x="1625" y="364" width="48" height="86"/>
+  <object id="6" name="enemy" x="2070" y="0" width="48" height="86"/>
+  <object id="9" name="enemy" x="2440" y="0" width="48" height="86"/>
+  <object id="11" name="enemy" x="2720" y="394" width="48" height="86"/>
+  <object id="12" name="enemy" x="2862" y="0" width="48" height="86"/>
+  <object id="13" name="enemy" x="3462" y="424" width="48" height="86">
+   <properties>
+    <property name="group" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="14" name="enemy" x="3750" y="424" width="48" height="86">
+   <properties>
+    <property name="group" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="15" name="enemy" x="4750" y="454" width="48" height="86">
+   <properties>
+    <property name="group" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="17" name="enemy" x="5020" y="454" width="48" height="86">
+   <properties>
+    <property name="group" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="18" name="enemy" x="5240" y="454" width="48" height="86">
+   <properties>
+    <property name="group" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="19" name="enemy" x="5500" y="454" width="48" height="86">
+   <properties>
+    <property name="group" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="22" name="enemy" x="4038" y="424" width="48" height="86">
+   <properties>
+    <property name="group" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="24" name="born" x="1890" y="380"/>
+  <object id="25" name="born" x="3150" y="415"/>
+  <object id="26" name="born" x="4500" y="445"/>
+ </objectgroup>
+</map>

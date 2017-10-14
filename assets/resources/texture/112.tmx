@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="200" height="24" tilewidth="30" tileheight="30" nextobjectid="95">
+ <tileset firstgid="1" name="map" tilewidth="30" tileheight="30" tilecount="117" columns="9">
+  <image source="map.png" width="270" height="390"/>
+  <tile id="0">
+   <properties>
+    <property name="top" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="top" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="bottom" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="top" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="bottom" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="land" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKgzAQBVDrsi7bZb3/NUugBRcVMczEhL4HA12Y+WS0yTQBAAAAAAAAAAAAAAAAwP+6BdfcQc85dELxIueSnXGUN1L/mrx7cC0d9Fx+7LsnkXPJzjjKG6l/Td4juJ4d9CzPtzhvatdFzmVP9DvYyxup/1V5Jef1qXXzO6rO9izPtzhvatdFzmVP9DvYyxup/1V5Jef7P+mlWpw32etqzr9tRsZcs3Na7eOqvMz7sOY+yzxvstfVnH/bjDWhsnNa7eOqvMz78Mx38wbVLkcd
+  </data>
+ </layer>
+ <layer name="trap" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzTEKADAIBEHB//85baqARUyEGbD0NgIAAAAAAAAAAAAAAAAAAAAAAJgit+v4q+zeapx60/Zf936xANMUAEk=
+  </data>
+ </layer>
+ <layer name="trap_sawtooth" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzjkSgkAARUECFwwQJVCWQFHvf0b/HaBqJuiuevlrGgAAAAAAtjikYzqlc2rTpegR1KNL19SnW7qnoegR1OORnmlMU5rTUvQI6vFK77SmT/qmX8khAAAAAAAAAAAAAGB3f6OQAeE=
+  </data>
+ </layer>
+ <layer name="win" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzqERADAIADGmpbLsr8oMNSCSu/cfAQAAAAAAAAAAAAAAwEbZnekJWOp2NT0BAAAAAMC3B2ptAa0=
+  </data>
+ </layer>
+ <layer name="castle" width="200" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzicOAgAQRUFORFEURVEURVEUBRLuL/l3QOwmzCTPv8EAAAAAAAAAAP7PMI3SOE2KX6CbaZqleVoUv0A3y7RK67SpXYF2tmmX9ulQ/ALdHNMpndOl+AW6uaZbuqdH8Qt080yv6glo6p0+1RMAAAAAAPzsCzChCDU=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="67" name="guide" x="475" y="300">
+   <properties>
+    <property name="end" type="float" value="600"/>
+    <property name="message" value="Keep moving with low voice."/>
+    <property name="start" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="68" name="guide" x="536" y="298">
+   <properties>
+    <property name="end" type="float" value="1200"/>
+    <property name="message" value="Jump ahead with loud voice."/>
+    <property name="start" type="float" value="650"/>
+   </properties>
+  </object>
+  <object id="69" name="floatingMove" x="816" y="481">
+   <properties>
+    <property name="direction" type="int" value="3"/>
+    <property name="distance" type="float" value="60"/>
+    <property name="group" type="int" value="1"/>
+    <property name="speed" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="70" name="floatingDrop" x="991" y="480">
+   <properties>
+    <property name="duration" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="71" name="born" x="266" y="301"/>
+  <object id="72" name="floatingDrop" x="1136" y="481">
+   <properties>
+    <property name="duration" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="73" name="enemy" x="848" y="551"/>
+  <object id="74" name="floatingMove" x="566" y="481">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="distance" type="float" value="60"/>
+    <property name="group" type="int" value="1"/>
+    <property name="speed" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="75" name="floatingMove" x="316" y="481">
+   <properties>
+    <property name="direction" type="int" value="2"/>
+    <property name="distance" type="float" value="60"/>
+    <property name="group" type="int" value="1"/>
+    <property name="speed" type="float" value="50"/>
+   </properties>
+  </object>
+  <object id="76" name="floatingDrop" x="1319" y="480">
+   <properties>
+    <property name="duration" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="77" name="guide" x="595" y="298">
+   <properties>
+    <property name="end" type="float" value="1500"/>
+    <property name="message" value="Ready? Scream!"/>
+    <property name="start" type="float" value="1250"/>
+   </properties>
+  </object>
+  <object id="78" name="born" x="1578" y="334"/>
+  <object id="80" name="born" x="2055" y="311"/>
+  <object id="81" name="born" x="2837" y="297"/>
+  <object id="82" name="born" x="3702" y="401"/>
+  <object id="84" name="born" x="4948" y="287"/>
+  <object id="87" name="enemy" x="2543" y="306"/>
+  <object id="90" name="enemy" x="1660" y="351"/>
+  <object id="92" name="enemy" x="4475" y="316"/>
+  <object id="93" name="enemy" x="5702" y="353"/>
+  <object id="94" name="enemy" x="5538" y="447"/>
+ </objectgroup>
+</map>
